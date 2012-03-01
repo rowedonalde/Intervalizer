@@ -1,0 +1,45 @@
+<!-- intervalizer/index.html -->
+<!-- HTML Layout for the Intervalizer webapp -->
+
+<html>
+<head>
+  <title>Intervalizer--The Ultimate Interval Quiz</title>
+  
+  <script src="js/jquery-1.7.1.min.js"></script>
+  <script src="js/intervalizer.js"></script>
+</head>
+
+<body>
+  <h1>Intervalizer--The Ultimate Interval Quiz</h1>
+  
+  <div id="quiz">
+    <!-- Quiz Prompt Display -->
+	<div id="question">
+      <div id="firstnote"></div>
+	  <div id="upordown"></div>
+	  <div id="secondnote"></div>
+	</div>
+	
+	<!-- Interval Selection -->
+	<div id="answer">
+	  <label><input type="radio" name="answer" value="1">Minor 2nd</label>
+	  <label><input type="radio" name="answer" value="2">Major 2nd</label>
+	  <label><input type="radio" name="answer" value="3">Minor 3rd</label>
+	  <label><input type="radio" name="answer" value="4">Major 3rd</label>
+	  <label><input type="radio" name="answer" value="5">Perfect 4th</label>
+	  <label><input type="radio" name="answer" value="6">Tritone</label>
+	  <label><input type="radio" name="answer" value="7">Perfect 5th</label>
+	  <label><input type="radio" name="answer" value="8">Minor 6th</label>
+	  <label><input type="radio" name="answer" value="9">Major 6th</label>
+	  <label><input type="radio" name="answer" value="10">Minor 7th</label>
+	  <label><input type="radio" name="answer" value="11">Major 7th</label>
+	  <label><input type="radio" name="answer" value="12">Octave</label>
+	  <br/>
+	  <input type="button" id="submit" value="Submit" />
+	</div>
+	
+	<!-- Response as to correctness of answer -->
+	<div id="response"></div>
+  </div>
+</body>
+</html>
