@@ -12,7 +12,7 @@ same relative structure.
 ##Requirements
 As of now, Intervalizer is incredibly simple--the only requirements bottleneck
 lies in jQuery. Please visit
-(the jQuery requirements page)[http://docs.jquery.com/Browser_Compatibility] to
+[the jQuery requirements page](http://docs.jquery.com/Browser_Compatibility) to
 make sure your browser is supported.
 
 ##Instructions
